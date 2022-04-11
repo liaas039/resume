@@ -1,0 +1,133 @@
+footer{
+    font-weight: bold;
+    background-color: #FFD306;
+    font-family: Microsoft JhengHei;
+}
+#all{
+    width: 70%;
+    height: auto;
+    
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #A3D1D1;
+    flex-direction:column;
+}
+#self {
+     
+    display: flex;
+    flex-direction:row ;
+
+   
+
+    background-color:#F9B38B;
+    height:20%;
+    width: 100%;
+    margin: 0 auto;
+    
+    float: left;
+    max-width:100%;
+    max-height: auto;
+
+}
+
+.a1 {
+    
+    font-size:20px;
+    
+    text-align:center;
+    position: relative;
+    top: 4%;
+    opacity: 0.6;
+    background-color:#FFFFF0;
+    font-style: italic;
+    font-weight: bold;
+    float: left;
+
+    
+
+}
+.me{
+    max-width:100%;
+    height: auto;
+}
+.hi{
+    width:300px;
+    height:300px;
+    
+    position: relative;
+    border-radius:50%;
+
+    margin: auto;
+
+   
+    
+}
+.hi:hover{
+    transform: rotate(45deg);
+}
+.abme{
+    float: left;
+    
+    padding-top:30px ;
+    padding-right: 20px;
+    margin-top: 30px;
+    margin:0 auto;
+
+    
+
+}
+.name{
+    font-weight:bold;
+    font-family: 標楷體;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+    margin-top: 2px;
+    margin-left: 50px;
+   
+}
+.a3{
+    padding-left: 60px;
+    font-size: 30px;
+    position: relative;
+    
+    font-weight:bold;
+    color:  #804040 ;
+    
+    
+}
+.i1{
+  margin: auto;
+  
+  
+}
+.o1{
+   width: 70px;
+    height: 70px;
+    padding-left: 20px;
+   max-width: 70px;
+   max-height: 70px;
+   
+
+
+}
+.o1:hover{
+    transform :scale(1.2);
+}
+.o2{
+   width: 70px;
+    height: 70px;
+    padding-left: 20px;
+   max-width: 70px;
+   max-height: 70px;
+   
+}
+.o2:hover{
+    transform :scale(1.2);
+}
+hr.style-one {
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
